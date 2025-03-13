@@ -51,6 +51,15 @@ export default function Layout() {
                 ),
             }}
             />
+            <Tabs.Screen
+            name="info"
+            options={{
+                title: "Info",
+                tabBarIcon: ({ color, size }) => (
+                    <Ionicons name="information-circle" size={size} color={color} />
+                ),
+            }}
+            />
         </Tabs>
     );
 }
